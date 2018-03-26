@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- Top page navigation bar  -->
+  <div class="topnav">
+      <!-- Home button -->
+      <a class="active" href="#home">Home</a>
+
+      <!-- Drop down menu using a list -->
+      <!-- used code from link below to help --> 
+      <!-- https://www.granneman.com/webdev/coding/css/from-list-to-dropdown-navigation/ -->
+      <div class="dropdown">
+        <button class="dropbtn">Find Trail 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <ul>
+            <li><a href="#Wellington">Wellington</a>
+              <ul>
+                <li><a href="#Akatarawa-Forest">Akatarawa Forest</a>
+                  <ul>
+                    <li><a href="#Airstrip-Drive">Airstrip Drive</a></li>
+                    <li><a href="#Big-Ring-Boulevard">Big Ring Boulevard</a></li>
+                    <li><a href="#Campbells-Mill">Campbell's Mill</a></li>
+                    <li><a href="#Cannon-Point-Road">Cannon Point Road</a></li>
+                    <li><a href="#Cannon-Point-Walkway">Cannon Point Walkway</a></li>
+                    <li><a href="#Cannon-Zig-Zag">Cannon Zig Zag</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </li>
+          </ul>
+
+        </div>
+      </div> 
+    </div>
+
+  <!-- About area -->
+  <div class="content-background">
+    <div class="contents">
+      <div class="top-description">
+        <h2>Kia ora and welcome to HikeThere!</h2>
+        <p>This is the site where you will be able to explore all the hidden hikes and trails around the Wellington region.</p>
+      </div>
+
+<!-- heading tags to state the location and area of the trails -->
+<h1 class="location-city"><a name="Wellington">Wellington</a></h1>
+<h3 class="location-area"><a name="Akatarawa-Forest">Akatarawa Forest</a></h3>
+      
+      <!-- First 3 trails in the same line using flexbox to make it resonsive ########################################################## -->
+      <div class="flex-container">
+        <div>
+          <div class="track">
+            <!-- everything within this label is used for the flipping animation of this trail -->
+            <label>
+                <input type="checkbox"  />
+                <div class="card">
+                  <div class="front">
+                    <div style="background-image:url('images/route1.png');color:white;">
+                      <p class="track-name"><a name="Airstrip-Drive">Airstrip Drive</a></p>
+                      <p class="track-des">Location: Akatarawa Forest, Wellington<br>Grade: Easy<br>1.66km<br>Access: 
+                        Bike and Foot<br> 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="back"><img src="images/route1.png" alt="HTML tutorial"></div>
+                </div>
+            </label>
+          </div>
+        </div>
+        <div>
+          <div class="track">
+            <!-- everything within this label is used for the flipping animation of this trail -->
+            <label>
+                <input type="checkbox"  />
+                <div class="card">
+                  <div class="front">
+                    <div style="background-image:url('images/route2.png');color:white;">
+                      <p class="track-name"><a name="Big-Ring-Boulevard">Big Ring Boulevard</a></p>
+                      <p class="track-des">Location: Akatarawa Forest, Wellington<br>Grade: Intermediate<br>5.14km<br>Access: 
+                        Bike and Foot<br> 
+                      </p>
+                    </div>  
+                  </div>
+                  <div class="back"><img src="images/route2.png" alt="HTML tutorial"></div>
+                </div>
+            </label>
+          </div>
+        </div>
+        <div>
+          <div class="track">
+            <!-- everything within this label is used for the flipping animation of this trail -->
+            <label>
+                <input type="checkbox"  />
+                <div class="card">
+                  <div class="front">
+                    <div style="background-image:url('images/route3.png');color:white;">
+                      <p class="track-name"><a name="Campbells-Mill">Campbell's Mill</a></p>
+                      <p class="track-des">Location: Akatarawa Forest, Wellington<br>Grade: Intermediate<br>6.47km<br>Access: 
+                        Bike and Foot<br> 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="back"><img src="images/route3.png" alt="HTML tutorial"></div>
+                </div>
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <!-- First 3 trails in the same line using flexbox to make it resonsive ########################################################## -->
+      <div class="flex-container">
+        <div>
+          <div class="track">
+            <!-- everything within this label is used for the flipping animation of this trail -->
+            <label>
+                <input type="checkbox"  />
+                <div class="card">
+                  <div class="front">
+                    <div style="background-image:url('images/route4.png');color:white;">
+                      <p class="track-name"><a name="Cannon-Point-Road">Cannon Point Road</a></p>
+                      <p class="track-des">Location: Akatarawa Forest, Wellington<br>Grade: Intermediate<br>2.85km<br>Access: 
+                        Bike and Foot<br> 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="back"><img src="images/route4.png" alt="HTML tutorial"></div>
+                </div>
+            </label>
+          </div>
+        </div>
+        <div>
+          <div class="track">
+            <!-- everything within this label is used for the flipping animation of this trail -->
+            <label>
+                <input type="checkbox"  />
+                <div class="card">
+                  <div class="front">
+                    <div style="background-image:url('images/route5.png');color:white;">
+                      <p class="track-name"><a name="Cannon-Point-Walkway">Cannon Point Walkway</a></p>
+                      <p class="track-des">Location: Akatarawa Forest, Wellington<br>Grade: Intermediate<br>4.45km<br>Access: 
+                        Bike and Foot<br> 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="back"><img src="images/route5.png" alt="HTML tutorial"></div>
+                </div>
+            </label>
+          </div>
+        </div>
+        <div>
+          <div class="track">
+            <!-- everything within this label is used for the flipping animation of this trail -->
+            <label>
+                <input type="checkbox"  />
+                <div class="card">
+                  <div class="front">
+                    <div style="background-image:url('images/route6.png');color:white;">
+                      <p class="track-name"><a name="Cannon-Zig-Zag">Cannon-Zig-Zag</a></p>
+                      <p class="track-des">Location: Akatarawa Forest, Wellington<br>Grade: Intermediate<br>1.69km<br>Access: 
+                        Bike and Foot<br> 
+                      </p>
+                    </div>
+                  </div>
+                  <div class="back"><img src="images/route6.png" alt="HTML tutorial"></div>
+                </div>
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+<!-- link used for drop down navigation
+  https://www.granneman.com/webdev/coding/css/from-list-to-dropdown-navigation/ -->
+<!-- link used for the flipping animation
+  https://codepen.io/RuudBurger/pen/bwjry -->
+<!-- link used for flexbox layout to make it more responsive
+https://www.w3schools.com/css/tryit.asp?filename=trycss3_flexbox_flex-wrap_nowrap8 -->
